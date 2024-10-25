@@ -1,0 +1,219 @@
+<html><head><base href="https://108formulas-magicas.com/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>108 Fórmulas Mágicas - Sabedoria Ancestral</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+:root {
+  --primary: #2a0845;
+  --secondary: #6441A5;
+  --accent: #8E2DE2;
+  --text-light: #f0e6ff;
+}
+
+body {
+  font-family: 'Cinzel', serif;
+  background: linear-gradient(135deg, #1a0524, #2a0845);
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  position: relative;
+}
+
+.book-showcase {
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  padding: 2rem;
+  margin: 2rem 0;
+  backdrop-filter: blur(10px);
+  position: relative;
+}
+
+.book-cover {
+  width: 200px;
+  height: 280px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  z-index: 0;
+}
+
+.content-wrapper {
+  margin-left: 220px; /* Added space for the book cover */
+}
+
+.feature-box {
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.3s ease;
+}
+
+.feature-box:hover {
+  transform: translateY(-5px);
+  background: rgba(255,255,255,0.15);
+}
+
+.cta-button {
+  background: linear-gradient(45deg, var(--accent), var(--secondary));
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 2rem 0;
+}
+
+.cta-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(142, 45, 226, 0.5);
+}
+
+.price-tag {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #8E2DE2;
+  text-shadow: 0 0 10px rgba(142, 45, 226, 0.3);
+}
+
+.mystical-divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--accent), transparent);
+  margin: 2rem 0;
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+.floating {
+  animation: float 6s ease-in-out infinite;
+}
+
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="main-container">
+  <div class="book-showcase">
+    <img src="/a/d6c59f8e-4a79-46fb-8721-3c596e320e8a" alt="Capa do livro 108 Fórmulas Mágicas mostrando uma figura em vestes místicas realizando um ritual" class="book-cover floating">
+    
+    <div class="content-wrapper">
+      <h1 class="mb-4">108 Fórmulas Mágicas</h1>
+      <p class="lead">Da Antiguidade à Idade Moderna - Para Seu Dia a Dia</p>
+      
+      <div class="feature-box">
+        <h3>📚 O Que Você Vai Aprender:</h3>
+        <ul>
+          <li>Rituais ancestrais adaptados para a vida moderna</li>
+          <li>Fórmulas para prosperidade e abundância</li>
+          <li>Práticas de proteção energética</li>
+          <li>Magias para harmonização do ambiente</li>
+        </ul>
+      </div>
+
+      <div class="price-tag mb-4">
+        <small class="text-muted text-decoration-line-through">R$ 197,00</small>
+        <br>
+        R$ 97,00
+      </div>
+
+      <button class="cta-button w-100" id="buyButton">
+        Adquira Agora
+      </button>
+
+      <div class="feature-box mt-4">
+        <h4>✨ Bônus Exclusivos:</h4>
+        <ul>
+          <li>Guia de Ervas Mágicas</li>
+          <li>Calendário Lunar 2024</li>
+          <li>Meditações Guiadas em Áudio</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="mystical-divider"></div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="feature-box">
+        <h3>🔮 Formato Digital</h3>
+        <p>Acesso instantâneo após a compra. Leia em qualquer dispositivo.</p>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="feature-box">
+        <h3>🌟 Garantia</h3>
+        <p>7 dias de garantia incondicional. Satisfação ou seu dinheiro de volta.</p>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="feature-box">
+        <h3>💫 Suporte</h3>
+        <p>Acesso ao grupo exclusivo de alunos para tirar dúvidas.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.getElementById('buyButton').addEventListener('click', function() {
+  window.location.href = "https://pay.kiwify.com.br/1KoK1pK";
+});
+
+// Efeito parallax suave
+document.addEventListener('mousemove', function(e) {
+  const moveX = (e.clientX * 0.005);
+  const moveY = (e.clientY * 0.005);
+  
+  document.querySelectorAll('.floating').forEach(function(element) {
+    element.style.transform = `translate(${moveX}px, ${moveY}px)`;
+  });
+});
+
+// Timer de oferta
+function startOfferTimer() {
+  const endTime = new Date().getTime() + (30 * 60 * 1000); // 30 minutos
+
+  const timer = setInterval(() => {
+    const now = new Date().getTime();
+    const distance = endTime - now;
+    
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.querySelector('.price-tag').innerHTML = 
+      `<small class="text-muted text-decoration-line-through">R$ 197,00</small><br>
+       R$ 97,00<br>
+       <small class="text-warning">Oferta expira em: ${minutes}:${seconds < 10 ? '0' : ''}${seconds}</small>`;
+
+    if (distance < 0) {
+      clearInterval(timer);
+      document.querySelector('.price-tag').innerHTML = `R$ 197,00`;
+    }
+  }, 1000);
+}
+
+startOfferTimer();
+</script>
+
+</body></html>
